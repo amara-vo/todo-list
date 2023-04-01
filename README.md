@@ -1,10 +1,12 @@
 # todolist
 A web application to create various To Do lists.
 
-# How to Connect
+Deployed on Render: https://todo-list-app-vcpq.onrender.com
+
+# How to Connect Locally
 1. Start server in directory
 ```
-nodemon app.js
+node app.js
 ```
 
 2. View site at localhost:3000
