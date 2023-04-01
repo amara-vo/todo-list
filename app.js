@@ -16,9 +16,11 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 mongoose.set('strictQuery', false);
-mongoose.connect("mongodb+srv://admin-amara:bts123@cluster0.n0jx37u.mongodb.net/todolistDB", {
+mongoose.connect("mongodb+srv://public-user:BTSarelegends123@cluster0.n0jx37u.mongodb.net/todolistDB", {
   useNewUrlParser: true
 });
+
+// mongod://localhost:27017/todolistDB for local mongo
 
 //items fruitSchema
 
